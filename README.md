@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# 프로젝트명 : 하스덱 (hsdeck)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+####  만든 이 : 양한재
 
-## Available Scripts
+--------------------------------------------------------------------------------------------------
 
-In the project directory, you can run:
+### 현재 구현 페이지 소개:
 
-### `npm start`
+![그림1](https://github.com/yanghanjae/hsdeck/assets/174262059/e1468ba2-bf77-4a69-bacb-213f7f901356)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+인덱스 페이지 입니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+덱 클릭시 해당 덱 소개 페이지로 이동합니다.
 
-### `npm run build`
+어느 페이지든 로고 클릭시, 인덱스 페이지로 돌아옵니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+----------------------------------------------------------------------------------------------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![그림2](https://github.com/yanghanjae/hsdeck/assets/174262059/1c7249b0-e3db-4a9f-890e-98bf94f09ff7)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+덱 소개 페이지입니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+해당 덱의 리스트를 출력해주는 페이지 입니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+카드 위에 마우스가 hover 될 시 카드의 사진이 나옵니다.
 
-## Learn More
+좋아요 기능, 댓글 기능도 있으나 DB와 연동하지 못해 현재 저장되지는 않습니다.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+----------------------------------------------------------------------------------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 현재 미 구현 기능:
 
-### Making a Progressive Web App
+로그인, 덱 업로드 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+댓글 기능, 좋아요 기능 (DB 연동) 
