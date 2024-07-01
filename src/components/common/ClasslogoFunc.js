@@ -1,5 +1,6 @@
-import React from 'react'
 import classlogo1 from '../img/classlogo/1.webp'
+import classlogo10 from '../img/classlogo/10.webp'
+import classlogo11 from '../img/classlogo/11.webp'
 import classlogo2 from '../img/classlogo/2.webp'
 import classlogo3 from '../img/classlogo/3.webp'
 import classlogo4 from '../img/classlogo/4.webp'
@@ -8,8 +9,6 @@ import classlogo6 from '../img/classlogo/6.webp'
 import classlogo7 from '../img/classlogo/7.webp'
 import classlogo8 from '../img/classlogo/8.webp'
 import classlogo9 from '../img/classlogo/9.webp'
-import classlogo10 from '../img/classlogo/10.webp'
-import classlogo11 from '../img/classlogo/11.webp'
 
 const ClasslogoFunc = (num) => {
   if(num === 1) 

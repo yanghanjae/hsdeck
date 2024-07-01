@@ -37,7 +37,7 @@ const Deck = ({deckcode}) => {
 
                 {cardData[cardIdx].name}
                 <span style={{ position: 'absolute', right: 0 }}> x {props[1]}  </span>
-                <span style={{ position: 'absolute', zIndex: '1' }}>{(hoverIndex === index) ? (Hovering ? <img src={`https://art.hearthstonejson.com/v1/render/latest/koKR/256x/${cardData[cardIdx].id}.png`} /> : null) : null}</span>
+                <span style={{ position: 'absolute', zIndex: '1' }}>{(hoverIndex === index) ? (Hovering ? <img src={`https://art.hearthstonejson.com/v1/render/latest/koKR/256x/${cardData[cardIdx].id}.png`} alt='card'/> : null) : null}</span>
               </div>
 
 

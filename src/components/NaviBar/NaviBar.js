@@ -35,7 +35,7 @@ const NaviBar = () => {
           fontWeight:'bolder',
           width:'15%'
         }}>
-        <img src={logo}
+        <img src={logo} alt='logo'
         style={{ width : '40px'}}></img>
         하스덱
       </a>
