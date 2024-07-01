@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/hsdeck/static/js/main.682f50bd.js",
+    "main.js": "/hsdeck/static/js/main.a89e33db.js",
     "static/js/453.419a5d54.chunk.js": "/hsdeck/static/js/453.419a5d54.chunk.js",
     "static/media/hsdecklogo.png": "/hsdeck/static/media/hsdecklogo.e016c2be0cd7f198825d.png",
     "static/media/2.webp": "/hsdeck/static/media/2.6fc6f8b9b14384088889.webp",
@@ -15,10 +15,10 @@
     "static/media/10.webp": "/hsdeck/static/media/10.67b10b150d94c53b1e11.webp",
     "static/media/4.webp": "/hsdeck/static/media/4.4cb10760efbb1e43ff78.webp",
     "index.html": "/hsdeck/index.html",
-    "main.682f50bd.js.map": "/hsdeck/static/js/main.682f50bd.js.map",
+    "main.a89e33db.js.map": "/hsdeck/static/js/main.a89e33db.js.map",
     "453.419a5d54.chunk.js.map": "/hsdeck/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.682f50bd.js"
+    "static/js/main.a89e33db.js"
   ]
 }
