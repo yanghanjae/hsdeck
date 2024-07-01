@@ -8,9 +8,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
+      <Router basename={process.env.PUBLIC_URL}>
       <NaviBar />
-      <Router>
-        <Routes>
+        <Routes >
           <Route path='/' element={<LandingPage />} />
           <Route path='/deck/:deckId' element={<ViewDeck />} />
         </Routes>

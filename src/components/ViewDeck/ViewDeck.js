@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Deck from '../common/Deck'
 import { Breadcrumb, Button } from "antd";
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import allData from '../../data/allData.json'
 import { AiFillLike } from "react-icons/ai";
 import Comment from '../common/Comment';
@@ -31,7 +31,7 @@ const ViewDeck = () => {
       <Breadcrumb
         items={[
           {
-            title: <a href='/'>Home </a>
+            title: <Link to='/'>Home </Link>
           },
 
           {

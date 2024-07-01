@@ -1,10 +1,7 @@
 import { Avatar, List } from 'antd'
 import React from 'react'
 import ClasslogoFunc from './ClasslogoFunc'
-
-
-
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -32,7 +29,7 @@ const DeckList = ({ title, data }) => {
 
             />
             <span style={{ fontSize: '16px', textAlign: 'center', width: '300px' }}>
-              <a href={`/deck/${item.id}`} style={{ color: '#000'}}> {item.title}</a>
+              <Link to={`/deck/${item.id}`} style={{ color: '#000' }}> {item.title}</Link>
             </span>
 
           </List.Item>
