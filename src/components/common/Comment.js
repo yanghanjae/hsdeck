@@ -28,7 +28,7 @@ const Comment = () => {
   };
 
   return (
-    <div style={{ width: '800px', margin: '0 auto', position: 'relative' }}>
+    <div style={{ width: '800px', margin: '50px auto', position: 'relative' }}>
       <ul style={{ listStyle: 'none', padding: 0 }}>
         {comments.map((comment, index) => {
           return (

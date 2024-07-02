@@ -54,8 +54,6 @@ const NaviBar = () => {
         <Divider type='vertical' style={dividerstyle} />
         <Button style={buttonstyle}> 덱 업로드 </Button>
       </span>
-
-
       <Button style={{
         position: 'relative',
         left: '10px',
@@ -67,7 +65,6 @@ const NaviBar = () => {
         width: '1200px'
       }} />
     </div>
-
   );
 };
 export default NaviBar;

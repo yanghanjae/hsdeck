@@ -6,7 +6,6 @@ import allData from '../../data/allData.json'
 import { AiFillLike } from "react-icons/ai";
 import Comment from '../common/Comment';
 
-
 const ViewDeck = () => {
 
   const { deckId } = useParams()
@@ -27,16 +26,11 @@ const ViewDeck = () => {
   }
 
   return (
-    <div style={{ width: '800px', margin: '50px auto' }}>
+    <div style={{ width: '800px', margin: ' 0 auto', padding: '77px' }}>
       <Breadcrumb
         items={[
-          {
-            title: <Link to='/'>Home </Link>
-          },
-
-          {
-            title: `${importName}`,
-          },
+          { title: <Link to='/'>Home </Link> },
+          { title: `${importName}`, },
         ]}
       />
       <Deck deckcode={importCode} />
@@ -45,11 +39,9 @@ const ViewDeck = () => {
           onClick={toggleButton}>
           <AiFillLike /> {like}
         </Button>
-
       </div>
       <Comment />
     </div>
-
   )
 }
 
