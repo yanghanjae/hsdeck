@@ -49,6 +49,10 @@
 ----------------------------------------------------------------------------------------------------
 
 ### 기획서 모든 페이지
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
+
 ![슬라이드0](https://github.com/yanghanjae/hsdeck/assets/174262059/196117eb-949e-47a4-a849-ed2f6e39a91f)
 ![슬라이드1](https://github.com/yanghanjae/hsdeck/assets/174262059/a129207c-02d5-423d-9874-bee9e12d9c08)
 ![슬라이드2](https://github.com/yanghanjae/hsdeck/assets/174262059/891581ff-86b3-43f4-8032-54e46daaa151)
@@ -85,9 +89,6 @@
 
 
 
-
-
-
-
+</details>
 
 
