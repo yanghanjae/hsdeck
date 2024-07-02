@@ -27,6 +27,8 @@
 |사용한 라이브러리|antd 5.18.3 <br> react-router-dom 6.24.0 <br> react-icons 5.2.1 <br> [deckstrings 3.1.2](https://github.com/HearthSim/hearthstone-deckstrings)|
 |개발 환경|Node.js 20.12.2|
 
+-----------------------------------------------------------------------------------------------------
+
 ### 현재 구현 페이지 소개:
 
 ![그림1](https://github.com/yanghanjae/hsdeck/assets/174262059/e1468ba2-bf77-4a69-bacb-213f7f901356)
